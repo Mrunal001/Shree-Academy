@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function mark()
+		{
+			var a,b,c,d,e;
+			a=parseInt(document.getElementById("t1").value);
+			b=parseInt(document.getElementById("t2").value);
+			c=parseInt(document.getElementById("t3").value);
+			
+			d=a+b+c;
+			document.write("Total Marks:" +d+"<br>"); 
+			e=d/3;
+			document.write("Percentage:" +e+"<br>");
+
+			if(e >= 80)
+			{
+				document.write("Grade A"+"<br>");
+			}
+			else if(e >= 60)
+			{
+				document.write("Grade B");
+			}
+			else if(e >= 40)
+			{
+				document.write("Grade C");
+			}
+			else if(e <= 40)
+			{
+				document.write("Fail");
+			}
+
+
+		}
+	</script>
+	<title>Find Mark and Grade</title>
+</head>
+<body>
+	Enter English Mark: <input type="text" id="t1"> <br>
+	Enter Hindi Mark: <input type="text" id="t2"> <br>
+	Enter Science Mark: <input type="text" id="t3"> <br>
+
+		<input type="button" value="ok" name="button" onclick="mark()">
+
+</body>
+</html>

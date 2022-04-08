@@ -1,0 +1,104 @@
+.d0
+{
+	background-image:radial-gradient(red,red 15%,yellow 20%,green 25%,black 26%,blue 30%,pink 38%);
+}
+
+.d01
+{
+	background-image:linear-gradient(yellow 40%, purple 80%);
+	border-radius:10px;
+	height:100px;
+	width:1180;
+
+}
+.d1
+{
+	background-color:red;
+	height:120px;
+	width:1200px;
+	margin-left:80px;
+	border-radius:10px;
+}
+.d2
+{
+	padding-left:10px;
+	padding-top:9px;
+}
+.d3
+{
+	background-image:linear-gradient(yellow 40%, purple 80%);
+	height:50px;
+	width: 150px;
+	padding:9px;
+	box-sizing:border-box;
+	border-radius:30px;
+	border: groove green;
+	border-width: 8px;
+	color:white;
+	font-weight:bold;
+	text-shadow:-1px -1px black;
+}
+a
+{
+	color:white;
+}
+.d4
+{
+	color:white;
+	font-size:100px;
+	padding-top:150px;
+	padding-left:510px;
+	text-shadow: 5px 5px black;
+}
+.d5
+{
+	background-image:radial-gradient(black 30%,pink 38%);
+}
+.d6
+{
+	color:white;
+	box-sizing:border-box;
+	max-width:400px;
+	height:200px;
+	overflow-y:scroll;
+	margin-left: 470px;
+	margin-top: 110px;
+}
+.d7
+{
+	background-image:radial-gradient(white 30%,pink 38%);
+}
+.d8
+{
+	color:black;
+	box-sizing:border-box;
+	max-width:400px;
+	height:200px;
+	overflow-y:scroll;
+	margin-left: 470px;
+	margin-top: 110px;
+}
+.d9
+{
+	background-color: pink;
+}
+.d10
+{
+	height: 100px;
+	width: 340px;
+	margin-left: 470px;
+	margin-top: 110px;
+	color: white;
+	font-weight:bold;
+	background-color: black;
+}
+.d11
+{
+	height: 300px;
+	width: 360px;
+	margin-left: 470px;
+	margin-top: 110px;
+	color: white;
+	font-weight:bold;
+	background-color: black;
+}

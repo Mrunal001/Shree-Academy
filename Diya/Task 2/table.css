@@ -1,0 +1,46 @@
+.d1
+{
+	height: 400px;
+	width: 400px;
+	background-color: pink;
+	
+	border: dashed 3px black;	
+}
+
+tr:hover
+{
+	background-color: blue;
+	border: solid 15px yellow;
+}
+td:hover
+{
+	background-color: red;
+	font-size: 30px;
+	border: solid 5px yellow;
+
+}
+
+tr:nth-child(even)
+{
+	background-color: green;
+}
+
+tr:nth-child(even):hover
+{
+	background-color: purple;
+}
+
+tr:nth-child(odd);
+{
+	background-color: brown;
+}
+
+tr:nth-child(odd):hover
+{
+	background-color: aqua;
+}
+
+.d2
+{
+	background-color: pink;
+}

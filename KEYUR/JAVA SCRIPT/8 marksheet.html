@@ -1,0 +1,46 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function show()
+		{
+			var x,y,z;
+			x=parseInt(document.getElementById("t1").value);
+			y=parseInt(document.getElementById("t2").value);
+			z=parseInt(document.getElementById("t3").value);
+			
+			a=x+y+z;
+			document.write("Total : <input type=text value="+a+">");
+			
+			b=(a*100)/300;
+			document.write("Per : <input type=text value="+b+"%>");
+
+			if (b>80)
+			{
+				document.write("Grade :<input type=text value=A>");
+			}
+			else if (b>70)
+			{
+				document.write("Grade :<input type=text value=B>");
+			}
+			else if (b>60)
+			{
+				document.write("Grade :<input type=text value=C>");
+			}
+			else if (b>50)
+			{
+				document.write("Grade :<input type=text value=D>");
+			}
+			else
+			{
+				document.write("Grade :<input type=text value=Fail>");
+			}
+		}
+	</script>
+</head>
+<body>
+	SUBJECT NO.1 :- <input type="text" id="t1"><br>
+	SUBJECT NO.2 :- <input type="text" id="t2"><br>
+	SUBJECT NO.3 :- <input type="text" id="t3"><br>
+	<input type="button" value="OK" onclick="show()">
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Box Model</title>
+
+	<style>
+		.p1
+		{
+			margin-top:50px;
+			margin-left:300px;
+			margin-right:500px;
+			border:20px dotted red;
+			height:300px;
+			width:300px;
+		}
+
+		.p3
+		{
+			margin-top:50px;
+			margin-left:300px;
+			margin-right:500px;
+			border:10px dotted red;
+			border-image-outset:100px;
+			border-image-slice:10;
+			background-origin:content-box;
+			height:300px;
+			width:300px;
+		}
+
+		.p2{
+			margin-top:250px;
+			margin-left:500px;
+			margin-right:500px;
+			border:30px solid yellow;
+			border-image-source:linear-gradient(red, green, blue, pink, cyan);
+			border-image-outset:50px;
+			border-image-slice:30;
+			background:blue;
+			font-size:20px;
+
+		}
+
+		.p4{
+			margin-top:150px;
+			margin-left:150px;
+			margin-right:150px;
+			padding:200px;
+			height:300px;
+			width:300px;
+			font-size:20px;
+			color:red;
+			background-image: url(14.jpg);
+			background-origin:border-box;
+			border:15px solid tomato;
+		}
+
+	</style>
+</head>
+<body>
+		<img src="14.jpg" class="p1">
+
+		<img src="14.jpg" class="p3">  
+
+		<p class="p2">Welcome to OM Web Solution</p>
+
+		<div class="p4">Welcome to OM Web Solution</div>
+</body>
+</html>

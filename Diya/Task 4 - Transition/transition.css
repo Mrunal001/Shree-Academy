@@ -1,0 +1,70 @@
+.d1
+{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	transition: width 3s, background-color 2s;
+	border: dashed 5px yellow;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.d1:hover
+{
+	width: 500px;
+	background-color: aqua;
+}
+
+.d2
+{
+	background-color: green;
+	width: 300px;
+	height: 300px;
+	transition: transform 32;
+	margin: 80px;
+	border: dashed 5px yellow;
+	margin-left: 800px;
+	margin-top:  300px;
+	
+
+}
+
+.d2:hover
+
+{
+	transform: rotate(580deg);
+}
+
+.d3
+{
+	background-color: blue;
+	width: 300px;
+	height: 300px;
+	border: dashed 5px yellow;
+
+	
+}
+
+.d3:hover
+
+{
+	transform:translate(600px);
+	width: 200px;
+	height: 200px;
+}
+
+.d4
+{
+	background-color: aqua;
+	width: 300px;
+	height: 300px;
+	transition: margin-left 3s;
+	border: dashed 5px yellow;
+
+}
+
+.d4:hover
+{
+	margin-left: 300px;
+}

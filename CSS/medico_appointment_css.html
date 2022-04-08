@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Appointment Form</title>
+	<style>
+		
+		body{
+			background-color:red;
+		}
+
+		table, tr{
+			background-color:yellow;
+			border:solid;
+			margin:5px;
+			padding:5px;
+			font-size:18px;
+			color:blue;
+
+		}
+
+		.name{
+			font-size:15px;
+			color:red;
+		}
+
+		#frm1{
+			font-size:15px;
+			
+		}
+
+		#submit{
+			font-size:15px;
+			color:#156959;
+			border:solid 2px;
+			text-align:right;
+		}
+
+	</style>
+
+
+</head>
+<body>
+	<table border="1px"  cellspacing="4" cellpadding="8" width="40%">
+		
+		<form id="frm1">
+
+			<tr>
+				<td>Medical Appointment Form</td>
+			</tr>
+
+			<tr>
+				<td>* Required Fields</td>
+			</tr>			
+			
+			<tr>
+				<td>Name*: <input type="text" class="name" placeholder="Name"></td>
+			</tr>
+
+			<tr>
+				<td>Mobile No.*: <input type="text" class="name" placeholder="Mobile No"></td>
+			</tr>
+
+			<tr>
+				<td>E-mail*: <input type="text" class="name" placeholder="Email"></td>
+			</tr>
+
+
+			<tr>
+				<td>Select Date*: <input type="date"></td>
+			</tr>
+
+			<tr>
+				<td>Select Time*: <input type="time"></td>
+			</tr>
+
+			<tr>
+				<td>Department* 
+					<select>
+						<option>Heart</option>
+						<option>Eye</option>
+						<option>Ear</option>
+						<option>General</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Choose Patient*</font>
+					<input type="checkbox"> New Patient
+					<input type="checkbox"> Existing Patient
+				</td>
+			</tr>
+
+			<tr>
+				<td>Reason for Visit:* <textarea></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" name="submit" id="submit" value="Book Appointment">
+				</td>
+			</tr>
+
+		</form>
+
+	</table>
+</body>
+</html>

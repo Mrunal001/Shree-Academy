@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>clip </title>
+	<style type="text/css">
+		.c1{
+			border: 10px dashed blue;
+			padding: 35px;
+			width: 500px;
+			background-image: url(2.jpg);
+			background-clip: border-box;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		.c2{
+			border: 10px dotted blue;
+			padding: 35px;
+			width: 500px;
+			background-image: url(2.jpg);
+			background-clip: padding-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.c3{
+			border: 10px dotted blue;
+			padding: 35px;
+			width: 500px;
+			background-image: url(2.jpg);
+			/*background-color: dimgray;*/
+			background-clip: content-box;
+			background-size: 70% 60%;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="c1"> helloo </div>
+
+	<div class="c2"> hiii hello </div>
+
+	<div class="c3"> hello </div>
+</body>
+</html>

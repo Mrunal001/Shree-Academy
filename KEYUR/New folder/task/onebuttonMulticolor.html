@@ -1,0 +1,39 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="colorcss.css">
+	<script type="text/javascript">
+		function show()
+		{
+			var x, y;
+			x=document.getElementById("d1");
+			
+			//y=x.style.background="green";
+			if(x.style.backgroundColor=="red")
+			{
+				x.style.backgroundColor="green";
+			}
+			else if(x.style.backgroundColor=="green")
+			{
+				x.style.backgroundColor="blue";
+			}
+			else if(x.style.backgroundColor=="blue")
+			{
+				x.style.backgroundColor="yellow";
+			}
+			else if(x.style.backgroundColor=="yellow")
+			{
+				x.style.backgroundColor="white";
+			}
+			else
+			{
+				x.style.backgroundColor="red";
+			}
+		}
+							
+	</script>
+</head>
+<body>
+	<div id="d1" style="height: 100px; width: 100px; background-color: red;"> DIV </div>
+	<input type="button" value="OK" onclick="show()">
+</body>
+</html>

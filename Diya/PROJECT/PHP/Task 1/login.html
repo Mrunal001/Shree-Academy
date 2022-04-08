@@ -1,0 +1,58 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="allcss.css">
+	<script type="text/javascript">
+		function show()
+		{
+			var x=0;
+			var i= document.getElementById('id').value;
+			var pass= document.getElementById('pass').value;
+
+			var s1=document.getElementById('s1');
+			var s2=document.getElementById('s2');
+
+			if(i=="")
+			{
+				s1.innerHTML="<font color=red>"+"Plz Enter User Id..."+"</font>";
+				x=1;
+			}
+			else
+			{
+				s1.innerHTML="";
+			}
+			
+			if(pass=="")
+			{
+				s2.innerHTML="<font color=red>"+"Plz Enter Password.."+"</font>";
+				x=1;
+			}
+			else
+			{
+				s2.innerHTML="";
+
+			}
+			if(x==0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+
+		}
+	</script>
+</head>
+<body id="homebody">
+	<div id="homeid1">
+		<form action="login.php">
+		id : <input type="text" name="id" id="id"><span id="s1"></span><br><br>
+		Password : <input type="password" name="pwd" id="pass"><span id="s2"></span><br><br>
+		<input type="submit" value="Login" onclick=" return show()">&nbsp;&nbsp;&nbsp;
+		<input type="button" value="Cancle"><br><br>
+		<a href="signup.html"><b>SignUp</b></a>
+		</form>	
+	</div>
+	
+</body>
+</html>

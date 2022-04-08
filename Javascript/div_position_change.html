@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function div_position()
+		{
+			var r;
+			r=document.getElementById("d1");
+
+			if(r.style.marginLeft=="1%")
+			{
+				r.style.marginLeft="10%";
+
+			}
+
+			else if (r.style.marginLeft=="10%" && r.style.marginTop=="1%")
+			{
+				r.style.marginTop="15%"
+			}
+
+			else if (r.style.marginTop=="15%")
+			{
+				r.style.marginLeft="1%"
+			}			
+
+		}
+	</script>
+	<title>Div position change</title>
+</head>
+<body>
+
+	<div style="height: 150px; width: 150px; margin-left:1%; margin-top:1%; background-color: red" id="d1"></div>
+
+	<input type="button" value="position change" onclick="div_position()">
+
+</body>
+</html>

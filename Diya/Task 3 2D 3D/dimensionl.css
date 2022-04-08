@@ -1,0 +1,37 @@
+.d1
+{
+	background-color: aqua;
+	width: 200px;
+	height: 200px;
+	transform: translate(100px,50px);
+}
+
+.d2
+{
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	transform: rotate(45deg);
+	margin: 80px;
+}
+
+.d3
+{
+	background-color: red;
+	width: 100px;
+	height:50px;
+	transform: scale(2,2);
+	margin-left: 280px;
+	margin-top: 10px;
+}
+
+.d4
+{
+	background-color: black;
+	width: 100px;
+	height:50px;
+	transform: skew(120deg,45deg);
+	margin-left: 220px;
+
+}
+

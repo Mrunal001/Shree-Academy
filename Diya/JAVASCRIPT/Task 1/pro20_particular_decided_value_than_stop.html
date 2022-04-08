@@ -1,0 +1,32 @@
+<html>
+<head>
+	<style type="text/css">
+			#d1
+			{
+				height: 200px;
+				width: 200px;
+				background-color: aqua;
+			}
+		</style>
+</head>
+	<body>
+		<div id="d1">1</div>
+		<script type="text/javascript">
+			i=1;
+
+			a=setInterval(function()
+			{
+				document.write(i+" ");
+
+				i++;
+				if(i>10)
+				{
+				 a=document.write(a);
+				 a.innerHTML(1);
+				}
+
+			},100);
+		</script>
+
+	</body>
+</html>

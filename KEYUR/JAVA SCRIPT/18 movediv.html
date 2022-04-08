@@ -1,0 +1,35 @@
+<html>
+<head>
+	<style type="text/css">
+		#d1
+		{
+			height: 200px;
+			width: 200px;
+			background-color: red; 
+		}
+	</style>
+</head>
+<body>
+	<div id="d1"></div>
+	<script type="text/javascript">
+		
+		var a = document.getElementById("d1");
+		l=0;
+		t=0;
+		setInterval(function()
+		{	
+			if((l<1000)&&(t==0))
+			{
+				l+=10;
+				a.style.marginLeft=l+"px";	
+			}
+			else if((l==1000)&&(t<350))
+			{
+				t+=10;
+				a.style.marginTop=t+"px";
+			} 
+			
+		},50);	
+	</script>
+</body>
+</html>

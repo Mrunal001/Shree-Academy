@@ -1,0 +1,43 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function green() 
+		{
+			document.body.style.backgroundColor="Green";
+		}
+
+		function green1()
+		{
+			document.body.style.backgroundColor="white";
+		}
+
+		function red()
+		{
+			var x;
+			x=document.getElementById("x");
+			x.style.backgroundColor="red";
+		}
+		function red1()
+		{
+			document.body.style.backgroundColor="yellow";
+		}	
+
+	</script>
+
+	<style type="text/css">
+		
+	</style>
+	
+</head>
+<body>
+
+
+	<div id="x" style="width: 100px; height: 100px; background-color: green; margin: 100px; color: yellow; padding: 35px; box-sizing: border-box;" onclick="red()" onmouseout="red1()">Red</div>
+
+	<form>
+		<input type="button" value="Green" onclick="green()"
+		 onmouseout="green1()"
+		style="height: 100px; width: 100px; margin: 100px;">
+	</form>
+</body>
+</html>

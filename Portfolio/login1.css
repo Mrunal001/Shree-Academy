@@ -1,0 +1,60 @@
+*{
+                position: relative;
+                box-sizing: border-box;
+                z-index: 1;
+}
+
+body{
+                
+                background-color: #156956;
+                background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+}
+
+
+.login{
+                background-color: aqua;
+                height: 300px;
+                width: 325px;
+                border: 3px solid green;
+                margin-top: 150px;
+                margin-right: 300px;
+                margin-left: 500px;
+                box-sizing: border-box;
+}
+
+
+.login-header{
+                color: #f35309;
+                text-align: center;
+                
+
+}
+
+#frm1{
+                color: blueviolet;
+                margin-left: 30px;
+                padding: 2px;
+                
+}
+
+#submit{
+                color: rgba(8, 252, 130, 0.884);
+                width: 170px;
+                background-color: #596285;
+                
+
+}
+
+.t1{
+                padding: 5px;
+                color: red;
+                
+}
+
+.p1{
+                padding: 5px;
+                color: red;
+                margin-top: 20px;
+}
+
+

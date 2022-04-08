@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function show()
+		{
+			var x,y,z;
+			x=parseInt(document.getElementById("t1").value);
+			y=parseInt(document.getElementById("t2").value);
+			z=x+y;
+			if (z<5)
+			{
+				document.write("HELLO");
+			}
+			else
+			{
+				document.write("WELCOME");
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="t1">
+	<input type="text" id="t2">
+	<input type="button" value="OK" onclick="show()">
+</body>
+</html>

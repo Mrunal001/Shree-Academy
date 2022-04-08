@@ -1,0 +1,13 @@
+.h1
+{
+	color:yellow;
+	text-align:center;
+}
+
+.p
+{
+	font-size:40px;
+	color:red;
+	border:solid;
+	margin:50px;
+}

@@ -1,0 +1,64 @@
+<html>
+<head>
+	<style type="text/css">
+		#d1
+		{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			float: left;
+			font-size: 200px;
+			text-align: center;
+		}
+		#d2
+		{
+			height: 200px;
+			width: 200px;
+			background-color: pink;
+			margin-left: 400px;
+			font-size: 200px;
+			text-align: center;
+			float: left;
+		}
+		#d3
+		{
+			height: 200px;
+			width: 200px;
+			background-color: pink;
+			margin-left: 300px;
+			font-size: 200px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="d1"></div>
+	<div id="d2"></div>
+	<div id="d3"></div>
+	<script type="text/javascript">
+			var x=document.getElementById("d1");
+			var y=document.getElementById("d2");
+			var z=document.getElementById("d3");
+			p=1;
+			q=1;
+			r=1;
+			a=setInterval(function()
+			{
+				x.innerHTML=p;
+				p++;
+				if(p>10)
+				{
+					p=1;
+					y.innerHTML=q;
+					q++;
+				}
+				if(q>10)
+				{
+					q=1;
+					z.innerHTML=r;
+					r++;
+				}
+			},10);
+	</script>
+</body>
+</html>

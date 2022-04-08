@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function greater()
+		{
+			var a,b;
+			a=parseInt(document.getElementById("t1").value);
+			b=parseInt(document.getElementById("t2").value);
+			if(a > b)
+			{
+				document.write(a);
+			}
+			else
+			{
+				document.write(b)
+			}
+			
+		}
+	</script>
+	<title>Find Greater Number</title>
+</head>
+<body>
+		Enter First Number: <input type="text" id="t1"> <br>
+		Enter Second Number: <input type="text" id="t2"> <br>
+
+		<input type="button" value="ok" name="button" onclick="greater()">
+
+</body>
+</html>

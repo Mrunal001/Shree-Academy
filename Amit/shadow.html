@@ -1,0 +1,57 @@
+/* box - shadow   
+   text shadow 
+
+	h-offset = horizontal offset(positive - right side, negative- left side)
+	v- offset = verticale offset(positive-bottom, negative- top)
+	blur = blurred the shadow
+	Spread = positive value increses the size of the shadow, an nagative value decrese the size of theshadow
+	color = color of the shadow
+	*/
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>shadow </title>
+	<style type="text/css">
+		.div{
+			margin-top: 50;
+			width: 200px;
+			border: 3px solid;
+			box-shadow: 5px 10px darkred;
+		}
+		.c2{
+			margin-top: 200px;
+			width: 200px;
+			padding: 15px;
+			border: 3px solid blue;
+			box-shadow: 5px 10px 30px 5px greenyellow;
+		}
+		.c3{
+			margin-top: 250px;
+			width: 200px;
+			padding: 25px;
+			border: 5px solid;
+			box-shadow: -10px -20px 30px 10px royalblue;
+		}
+		.c4{
+			margin-top: 400px;
+			width: 200px;
+			border: 3px solid;
+			box-shadow: 10px 10px royalblue,
+						20px 20px yellow,
+						30px 30px red;
+		}
+	</style>
+</head>
+<body>
+	<div class="div"> Shadow effect </div>
+
+	<div class="c2"> blur spread red color shadow </div>
+
+	<div class="c3"> top to bottom </div>
+
+	<div class="c4"> multi shadow </div>
+
+	<marquee> <h1> helllo </h1> </marquee>
+</body>
+</html>

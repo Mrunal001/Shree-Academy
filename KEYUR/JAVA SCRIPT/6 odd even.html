@@ -1,0 +1,25 @@
+				<html>
+<head>
+	<script type="text/javascript">
+		function show()
+		{
+			var x;
+			x=parseInt(document.getElementById("t1").value);
+			if (x%2==0)
+			{
+				document.write("Even Number :- ");
+				document.write(x);
+			}
+			else
+			{
+				document.write("Odd Number :- ");
+				document.write(x);
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="t1">
+	<input type="button" value="OK" onclick="show()">
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<style type="text/css">
+			#d1
+			{
+				height: 200px;
+				width: 200px;
+				background-color: aqua;
+			}
+		</style>
+		<script type="text/javascript">
+			function show()
+			{
+				var a;
+				a=document.getElementById("d1");
+				a.style.display="block";
+			}
+			function hide()
+			{
+				var a;
+				a=document.getElementById("d1");
+				a.style.display="none";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="d1">DIYA</div>
+		<input type="button" value="SHOW" onclick="show()">
+		<input type="button" value="HIDE" onclick="hide()">
+	</body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+<head>
+	<style type="text/css">
+		#d1
+		{
+			height: 200px;
+			width: 200px;
+			background-color: red; 
+
+		}
+	</style>
+	
+</head>
+<body>
+	<div id="d1">Khush</div>
+	<script type="text/javascript">
+		
+		var a = document.getElementById("d1");
+		l=0;
+		t=0;
+		r=0;
+		b=0;
+		setInterval(function()
+		{			
+			if((l<1000)&&(t==0))
+			{
+				l+=10;
+				a.style.marginLeft=l+"px";
+				a.style.backgroundColor="green";
+
+
+			}
+			else if((l==1000)&&(t<350))
+			{
+				t+=10;
+				a.style.marginTop=t+"px";
+				a.style.backgroundColor="red";
+				a.style.borderRadius="100px";
+			} 
+			else if((t==350)&&(l>=10))
+			{
+				l-=10;
+				a.style.marginLeft=l+"px";
+				a.style.backgroundColor="green";
+				a.style.borderRadius="0px";
+				//alert("l"+l);	
+			} 
+			else if(l==0)
+			{
+				t-=10;
+				a.style.marginTop=t+"px";
+				a.style.backgroundColor="red";
+				a.style.borderRadius="100px";	
+				//alert("t"+t);
+			}
+		},50);
+	</script>
+</body>
+</html>

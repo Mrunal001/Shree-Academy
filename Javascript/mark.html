@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function mark()
+		{
+			var a,b,c,d,e,f;
+			a=parseInt(document.getElementById("m1").value);
+			b=parseInt(document.getElementById("m2").value);
+			c=parseInt(document.getElementById("m3").value);
+
+			d=a+b+c;
+			e=d/300*100;
+
+
+			document.write("Total Marks:" +d);
+			document.write("Percentage:" +e);
+
+			if(e <= 100  && e >= 80)
+			{
+				document.write("Grade A" +d);
+			}
+			else if (e <= 79 && e >= 60)
+			{
+				document.write("Grade B" +d);
+			}
+
+			else if (e <= 59 && e >= 40)
+			{
+				document.write("Grade C" +d);
+			} 
+		}
+	</script>
+	<title>Total Marks</title>
+</head>
+<body>
+	Enter English Mark: <input type="text" id="m1"> <br>
+	Enter Maths Mark: <input type="text" id="m2"> <br>
+	Enter Science Mark: <input type="text" id="m3"> <br>
+
+	<input type="button" value="ok" onclick="mark()">
+
+</body>
+</html>

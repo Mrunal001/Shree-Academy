@@ -1,0 +1,47 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function show()
+		{
+			var a,b,c,d;
+			a=parseInt(document.getElementById("t1").value);
+			b=parseInt(document.getElementById("t2").value);
+			c=parseInt(document.getElementById("t3").value);
+			d=parseInt(document.getElementById("t4").value);
+
+			document.write("<table border=1>");
+			for(i=1;i<=10;i++)
+			{
+				document.write("<tr align=center>");
+				for(o=a;o<=b;o++)
+				{
+					document.write("<td>"+i*o+"</td>");
+				}
+			}
+				document.write("</tr></table>");
+
+				document.write("<br>");
+
+			document.write("<table border=1>");
+			for(k=c;k<=d;k++)
+			{
+				document.write("<tr align=center>");
+				for(j=1;j<=10;j++)
+				{
+					document.write("<td>"+j*k+"</td>");
+				}
+			}
+				document.write("</tr></table>");
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="t1">
+	<input type="text" id="t2">
+	<br> <br>
+	<input type="text" id="t3">
+	<input type="text" id="t4">
+	<br> <br>
+	<input type="button" value="OK" onclick="show()">
+</body>
+</html>

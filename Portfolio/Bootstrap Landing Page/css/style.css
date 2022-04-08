@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+
+}
+
+.navbar{
+background-color: #FF00FF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: #4169E1;
+}
+
+.navbar-light .navbar-brand{
+color: #4169E1;
+}
+
+.carousel {
+margin-top: 70px;
+}
+
+#home{
+margin-top: 10px;
+}
+
+h2{
+margin-top: -10px;
+color:#4682B4;
+}
+
+h3{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 20px;
+color: #0000CD;
+}
+
+p{
+text-align:justify;
+}
+
+a{
+color: white;
+}
+
+.card{
+border: 1.5px solid black;
+}
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.b-example-divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, .1);
+border: solid rgba(0, 0, 0, .15);
+border-width: 1px 0;
+box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+                
+.bi {
+vertical-align: -.125em;
+fill: currentColor;
+}
+
+#footer{
+background-color: black;
+color: white;
+margin-top: 30px;
+}
+                

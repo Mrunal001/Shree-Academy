@@ -1,0 +1,25 @@
+div
+{
+	background-color: black;
+	width: 200px;
+	height: 200px;
+}
+.d1:hover
+{
+	width: 100px;
+	height: 100px;
+	transform:translate(1300px);
+	background-color: red;
+}
+.d2
+{
+	background-color: pink;
+	transition: width 1s,height 1s,background-color 2s;
+	margin-top: 100px;
+}
+.d2:hover
+{	
+	width: 1300px;
+	height: 10px;
+	background-color: red;
+}

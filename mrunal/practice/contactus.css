@@ -1,0 +1,109 @@
+body{
+	position: relative;
+	z-index: 1;
+	background-color: #CC5678;
+}
+
+.main{
+	border: 2px solid green;
+	height: 400px;
+	width: 520px;
+	margin-top: 150px;
+	margin-left: 500px;
+	background-color: #CC962365;
+	
+}
+
+.header{
+	text-align: center;
+	color: blue;
+
+}
+
+#btn{
+	padding: 2px;
+	background-color: red;
+	color: blue;
+	height: 30px;
+	width: 80px;
+	font-size: 20px;
+	margin-left: 250px;
+}
+
+.fname{
+	border: 3px solid green;
+	background-color: black;
+	color: white;
+	margin-left: 40px;
+	height: 18px;
+	width: 350px;
+	font-size: 17px;
+}
+
+.lname{
+	border: 3px solid green;
+	background-color: black;
+	color: white;
+	height: 18px;
+	width: 350px;
+	margin-left: 44px;
+	font-size: 17px;
+}
+
+.em{
+	border: 3px solid green;
+	background-color: black;
+	color: white;
+	height: 18px;
+	width: 350px;
+	margin-left: 74px;
+	font-size: 17px;
+}
+
+.add{
+	border: 3px solid green;
+	background-color: black;
+	height: 40px;
+	width: 352px;
+	color: white;
+	margin-left: 62px;
+	font-size: 17px;
+}
+
+.mob{
+	border: 3px solid green;
+	background-color: black;
+	color: white;
+	height: 18px;
+	width: 350px;
+	margin-left: 36px;
+	font-size: 17px;
+}
+
+.msg{
+	border: 3px solid green;
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 352px;
+	margin-left: 16px;
+	font-size: 17px;
+}
+
+textarea{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+#frm1{
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+	color: yellow;
+	line-height: 40px;
+
+
+}

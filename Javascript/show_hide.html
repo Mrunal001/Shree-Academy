@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Show Hide</title>
+	<script type="text/javascript">
+		function show()
+		{
+			var a=document.getElementById("d1");
+			a.style.display="block";
+		}
+
+		function hide()
+		{
+			var a=document.getElementById("d1");
+			a.style.display="none";
+		}
+	</script>
+</head>
+<body>
+	<div id="d1" style="height: 100px; width: 100px; background-color: red"></div>
+
+	<input type="button" value="show" onclick="show()">
+	<input type="button" value="hide" onclick="hide()">
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="colorcss.css">
+	<script type="text/javascript">
+		function show()
+		{
+			var x, y;
+			x=document.getElementById("d1");
+			
+			//y=x.style.background="green";
+			if(x.style.backgroundColor=="green")
+			{
+				x.style.backgroundColor="red";
+			}
+			else
+			{
+				x.style.backgroundColor="green";
+			}
+		}
+							
+	</script>
+</head>
+<body>
+	<div id="d1" style="height: 200px; width: 200px; background-color: red;"> hiii</div>
+	<input type="button" value="OK" onclick="show()">
+</body>
+</html>

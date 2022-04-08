@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function add()
+		{
+			var a,b,c,d;
+			a=parseInt(document.getElementById("t1").value);
+			b=parseInt(document.getElementById("t2").value);
+			c=parseInt(document.getElementById("t3").value);
+			x=document.getElementById("t4");
+			d=a+b+c;
+			x.value=d;
+			//document.write("<input type=text value="+d+">");
+		}
+	</script>
+	<title>Addition</title>
+</head>
+<body>
+	Enter First Value: <input type="text" id="t1"> <br>
+	Enter Second Value: <input type="text" id="t2"> <br>
+	Enter Third Value: <input type="text" id="t3"> <br>
+<input type="text" id="t4">
+	<input type="button" value="Addition" onclick="add()">
+
+</body>
+</html>

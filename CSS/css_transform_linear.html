@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform Linear</title>
+	<style>
+		div{
+			margin-top:10px;
+			width:100px;
+			height:100px;
+			background:blue;
+			transition: widht 4s, padding 2s, color2s;
+		}
+
+		#l{transition-timing-function: linear;}
+		#e{transition-timing-function: ease;}
+		#ei{transition-timing-function: ease-in;}
+		#eo{transition-timing-function: ease-out;}
+		#eio{transition-timing-function: ease-in-out;}
+
+		div:hover{
+			width:200px;
+			height:200px;
+			color:darkred;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	</div>
+
+	<div id="l">linear</div>
+	<div id="e">ease</div>
+	<div id="ei">ease-in</div>
+	<div id="eo">ease-out</div>
+	<div id="eio">ease-in-out</div>
+
+</body>
+</html>

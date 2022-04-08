@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function color_change()
+		{
+			var r;
+			r=document.getElementById("d1");
+		
+			if(r.style.backgroundColor=="red")
+			{
+				r.style.backgroundColor="green";
+			}
+			else if(r.style.backgroundColor=="green")
+			{
+				r.style.backgroundColor="blue";
+			}
+			else if(r.style.backgroundColor=="blue")
+			{
+				r.style.backgroundColor="red";
+			}
+				
+		}
+
+		
+	</script>
+	<title>Color Change</title>
+</head>
+<body>
+	<div style="height:100px; width:100px; background-color:red" id="d1">Welcome</div>
+
+	<input type="button" name="button" value="color change" onclick="color_change()">
+
+</body>
+</html>

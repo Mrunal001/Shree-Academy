@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function red()
+			{	
+				var d1;
+				d1=document.getElementById("d1");
+				d1.style.backgroundColor="green";
+				document.body.style.backgroundColor="red";
+			}
+
+			function red2()
+			{	
+				document.body.style.backgroundColor="pink";
+			}
+
+			function yellow()
+			{	
+				document.body.style.backgroundColor="yellow";
+			}
+
+			function yellow2()
+			{	
+				document.body.style.backgroundColor="pink";
+			}
+
+			function blue()
+			{	
+				document.body.style.backgroundColor="blue";
+			}
+
+			
+		</script>
+	</head>
+		<body>
+			<form>
+				<input type="button" style="width: 100px; 
+				height: 50px; 
+				margin: 50px; 
+				border-width: 10px;
+				background-color: pink" 
+				value="red" 
+				onmouseover="red()"
+				onmouseout="red2()">
+
+				<input type="button" style="width: 100px; 
+				height: 50px; 
+				border-width: 10px;
+				background-color: pink" 
+				value="yellow" 
+				onmouseover="yellow()"
+				onmouseout="yellow2()">
+			
+			</form>
+				<div id=d1 style="width: 100px; height: 100px;
+					background-color: blue" onclick="blue()">
+
+				</div>
+
+		</body>
+</html>

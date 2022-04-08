@@ -1,0 +1,164 @@
+.home
+{
+
+	background-image: radial-gradient(red 10%, yellow 16%, green 20%, black 1%, blue 30%, darkcyan 30%);
+}
+
+div
+{
+	height: 300px;
+	width: 400px;
+
+}
+
+table
+{
+	height: 100px;
+	width: 800px;
+	text-align: center;
+
+	margin-top: -280px;
+	margin-left: 300px;
+	border-bottom: double 10px black;
+	border-top: double 10px black;
+	border-right: double 10px black;
+	border-left: double 10px black;
+	background-image: linear-gradient(to right bottom, gray,pink);
+
+	}
+
+	.table2
+	{
+		background-color: pink;
+		height:50px; 
+		width: 100px; 
+		margin-top: -110px;
+		
+	}
+
+	.loginbg
+	{
+		background-color: darkcyan;
+		
+	}
+
+	.d2
+	{
+		height: 30px;
+		width: 40px;
+		margin-left: 500px;
+		font-size:40px;
+		margin-top: 40%; 
+		color:white;
+	}
+	p
+	{
+		margin: 170px;
+		margin-left: 560px;
+		font-size: 50px;
+		color: darkred;
+
+
+	}
+
+	p:hover
+	{
+		font-size: 70px;
+		font-weight: bold;
+		margin-left:490px;
+		color: aqua;
+		margin-top: 160px;
+	}
+
+	b{
+		
+		font-size: 30px;
+		color: aqua;
+	}
+
+	b:hover
+	{
+		font-size: 40px;
+		font-weight: bold;
+		color: darkred;
+	}
+
+	.d3
+	{
+		height: 350px;
+		width: 500px;
+		background-color: lightgreen;
+		box-sizing: border-box;
+		border-style: dashed;
+		border-radius: 100px;
+		border-color: black;
+		border-width: 5px;
+		text-align: center;
+		margin-top: -100px;
+		margin-left: 450px;
+
+
+		
+		
+	}
+
+	.d4
+	{
+		height: 500px;
+		width: 500px;
+		background-color: lightgreen;
+		box-sizing: border-box;
+		border-style: dashed;
+		border-radius: 100px;
+		border-color: black;
+		border-width: 5px;
+		text-align: center;
+		margin-top: 30px;
+		margin-left: 450px;
+		font-weight: bold;
+
+	}
+
+	.d5
+	{
+		height: 400px;
+		width: 500px;
+		background-color: lightgreen;
+		box-sizing: border-box;
+		border-style: dashed;
+		border-radius: 80px;
+		border-color: black;
+		border-width: 5px;
+		text-align: center;
+		margin-top: 30px;
+		margin-left: 450px;
+		font-weight: bold;
+
+	}
+	h1
+	{
+		color: blue;
+		text-shadow: 2px 2px black;
+	}
+
+	.d6
+	
+		
+	{
+		height: 350px;
+		width: 350px;
+		background-color: lightgreen;
+		box-sizing: border-box;
+		border-style: dashed;
+		border-radius: 100px;
+		border-color: black;
+		border-width: 5px;
+		text-align: center;
+		margin-top: 30px;
+		margin-left: 450px;
+		font-weight: bold;
+
+	}
+	
+
+		

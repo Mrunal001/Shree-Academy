@@ -1,0 +1,54 @@
+<html>
+<head>
+	
+	<style type="text/css">
+		#d1,#d2
+		{
+			height: 90px;
+			width: 200px;
+			background-color: red;
+			padding-left: 70px; 
+			font-size: 100px;
+
+		}
+		
+	</style>
+	
+</head>
+<body>
+	<div id="d1" ></div><br>
+	<div id="d2" ></div>
+	<script type="text/javascript">
+	
+		var x=document.getElementById("d1");
+		var y=document.getElementById("d2");
+			a=1;
+			b=1;
+			y=setInterval(function() 
+			{
+				x.innerHTML=a;
+				a++;
+				if (a>10) 
+				{
+					a=1;
+				}
+
+				y.innerHTML=b;
+				b++;
+				if (b>10) 
+				{
+					b=1;
+				}
+			
+				/*y.innerHTML=j;
+				j++;
+				if (j>10) 
+				{
+					clearInterval(b);
+				}*/
+			},100);
+
+		
+	</script>
+</body>
+</html>

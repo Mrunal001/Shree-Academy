@@ -1,0 +1,35 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function show()
+		{
+			var x, y, a, b;
+			x=document.getElementById("t1").value;
+			y=document.getElementById("p1").value;
+
+			a=document.getElementById("d1");
+			b=document.getElementById("d2");
+
+			if((x!="") && (y!=""))
+			{
+				document.write(x);
+				document.write(y);
+			}
+			else
+			{
+				
+				a.innerHTML="<font color=red>"+"Enter Proper value..."+"</font>";
+				
+				b.innerHTML="<font color=red>"+"Enter Proper value..."+"</font>";
+			}
+		}
+	</script>
+</head>
+<body>
+	<pre>
+	User ID :<font color="red">*</font><input type="text" id="t1"><span id="d1"></span><br>
+	Password :<font color="red">*</font><input type="Password" id="p1"><span id="d2"></span><br>
+	<input type="button" value="Login" onclick="show()">
+</pre>
+</body>
+</html>

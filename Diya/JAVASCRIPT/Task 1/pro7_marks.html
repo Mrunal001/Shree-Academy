@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function show()
+			{
+				var guj,hindi,eng,total,per;
+				guj=parseInt(document.getElementById("t1").value);
+				hindi=parseInt(document.getElementById("t2").value);
+				eng=parseInt(document.getElementById("t3").value);
+
+				total=guj+hindi+eng;
+				document.write("Total <input type=text value="+total+">");
+
+				per=(total*100)/300;
+				document.write("Percentage <input type=text value="+per+">");
+
+				if (per>=80) 
+				{
+					document.write("<br>Grade <input type=text value=A>");
+				}
+				else if (per>=60)
+				{
+					document.write("<br>Grade <input type=text value=B>");
+				}
+				else if (per>=40)
+				{
+					document.write("<br>Grade <input type=text value=C>");
+				}
+				else
+				{
+					document.write("<br>Grade <input type=text value=Fail>");
+				}
+			}	
+			
+		</script>
+	</head>
+	<body>
+		<pre>
+	GUJARATI  <input type="text" id="t1"><br><br>
+	HINDI     <input type="text" id="t2"><br><br>
+	ENGLISH   <input type="text" id="t3"><br><br>
+	
+		<input type="button" value="submit" onclick="show()"><br><br>
+			</pre>
+	</body>
+</html>

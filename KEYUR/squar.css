@@ -1,0 +1,37 @@
+div
+{
+	height: 200px;
+	width: 450px;
+}
+.d1
+{
+	float: left;
+	background-color: black;
+}
+
+.d2
+{
+	
+	float: right;
+	background-color: pink;
+}
+
+.d3
+{
+	float: left;
+	margin-left: 450px;
+	margin-right: 580px;
+	background-color: red;
+}
+
+.d4
+{
+	float: left;
+	background-color: green;
+}
+
+.d5
+{
+	float: right;
+	background-color: yellow;
+}

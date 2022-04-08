@@ -1,0 +1,19 @@
+body{
+	position: absolute;
+	z-index: 1;
+	background-color: #895626;
+	border: border-box;
+}
+
+.sidebar{
+	border: 2px solid white;
+	height: 615px;
+	width: 250px;
+	background-color: blue;
+	color: white;
+}
+
+.aside{
+	color: #CC9544;
+	font-size: 20px;
+}

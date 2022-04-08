@@ -1,0 +1,30 @@
+<html>
+		<head>
+			<script type="text/javascript">
+				function show()
+				{
+				
+					var a,b;
+					a=parseInt(document.getElementById("t1").value);
+					b=parseInt(document.getElementById("t2").value);
+					document.write("<table border=1 height=20% width=20%>");
+					for(j=1; j<=10; j++)
+					{
+						document.write("<tr>");
+						for(i=a; i<=b; i++)
+						{
+							document.write("<td>"+j*i+"</td>");
+
+						}
+						document.write("</tr>");	
+					}
+					document.write("</table>");
+				}
+			</script>
+		</head>
+		<body>
+			<input type="text" id="t1">
+			<input type="text" id="t2">
+			<input type="button" value="ok" onclick="show()">
+		</body>
+</html>

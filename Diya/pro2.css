@@ -1,0 +1,76 @@
+div
+{
+	background-color: black;	
+}
+.d1
+{
+	background-color: pink;
+	color: brown;
+	height: 250px;
+	width: 250px;
+	border: dotted 5px red;
+	float:left;
+	margin-left: 300px;
+	margin-bottom: 210px;
+	margin-top: 18px;
+
+	
+}
+
+.d2
+{
+	background-color: pink;
+	color: brown;
+	height: 250px;
+	width: 250px;
+	border: dotted 5px red;
+	float:right;
+	margin-right: 400px;
+	margin-top: 1px;
+	
+}
+
+.d3
+{
+	background-color: pink;
+	color: brown;
+	height: 250px;
+	width: 250px;
+	border: dotted 5px red;
+	
+	margin-left:  460px;
+	margin-top: 260px;
+	
+
+	
+}
+
+.d4
+{
+	background-color: pink;
+	color: brown;
+	height: 250px;
+	width: 250px;
+	border: dotted 5px red;
+	
+	margin-left: 300px;
+	margin-bottom: 210px;
+	margin-top: 1px;
+
+	
+}
+
+
+.d5
+{
+	background-color: pink;
+	color: brown;
+	height: 250px;
+	width: 250px;
+	border: dotted 5px red;
+	
+	margin-right:   10px;
+	
+
+	
+}

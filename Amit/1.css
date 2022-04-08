@@ -1,0 +1,20 @@
+.c1{
+			width: 300px;
+			height: 100px;
+			border: 5px solid blue;
+			
+		}
+		.c2{
+			width: 300px;
+			height: 100px;
+			padding: 50px;
+			border: 5px solid blue;
+			box-sizing: content-box;
+		}
+		.c3{
+			width: 300px;
+			height: 100px;
+			padding: 50px;
+			border: 5px solid blue;
+			box-sizing: border-box;
+		}

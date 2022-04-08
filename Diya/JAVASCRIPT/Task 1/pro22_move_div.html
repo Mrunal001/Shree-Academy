@@ -1,0 +1,52 @@
+<html>
+<head>
+	<style type="text/css">
+		#d1
+		{
+			height: 200px;
+			width: 200px;
+			background-color: aqua; 
+
+		}
+	</style>
+	
+</head>
+<body>
+	<div id="d1">DIYA</div>
+	<script type="text/javascript">
+		
+		var a = document.getElementById("d1");
+		l=0;
+		t=0;
+		r=0;
+		b=0;
+		setInterval(function()
+		{			
+			if((l<1000)&&(t==0))
+			{
+				l+=10;
+				a.style.marginLeft=l+"px";	
+
+			}
+			else if((l==1000)&&(t<350))
+			{
+				t+=10;
+				a.style.marginTop=t+"px";
+
+			} 
+			else if((t==350)&&(l>=10))
+			{
+				l-=10;
+				a.style.marginLeft=l+"px";
+				//alert("l"+l);	
+			} 
+			else if(l==0)
+			{
+				t-=10;
+				a.style.marginTop=t+"px";	
+				//alert("t"+t);
+			}
+		},10);
+	</script>
+</body>
+</html>
